@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+    <title>Bootstrap Exercise File</title>
+
+    <style>
+        h1 {font-family: Crimson}
+        header {
+          position: relative;
+          background-color: black;
+          height: 75vh;
+          min-height: 25rem;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        header video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: 0;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+        }
+
+        header .container {
+          position: relative;
+          z-index: 2;
+        }
+
+        header .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: black;
+          opacity: 0.5;
+          z-index: 1;
+        }
+
+        @media (pointer: coarse) and (hover: none) {
+          header {
+            background: black no-repeat center center scroll;
+          }
+          header video {
+            display: none;
+          }
+        }
+    </style>
+
+  </head>
+<body>
+
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="assets/Amari%20Brown%20Vigil%20loop.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">A Child's Death</h1>
+            <p class="lead mb-0">Chicago Under the Gun</p>
+          </div>
+        </div>
+      </div>
+    </header>
+      
+    <br>
+
+    <div class="container">
+        <h6>Photos by: BRIAN NGUYEN, ANTHONY SOUFFLE, and E. JASON WAMBSGANS</h6> 
+        <h6>Written by: MEREDITH RODRIGUEZ, JEREMY GORNER, PETER NICKEAS and ALEXANDRA CHACHKEVITCH</h6>
+        <h6 class="small">CHICAGO TRIBUNE | JUL 05, 2015 AT 4:45 PM</h6>
+    </div>
+
+    <div class="container">
+      <header class="vh-100 d-flex flex-column justify-content-center">
+       <h1> "Lord Jesus give me strength.
+            <small class="text-muted">Have mercy on me..."</small>
+        </h1>
+      </header>
+    </div>
+
+    <div>
+        <div>      
+            <section class="row align-items-center">
+                <div class="col-med-6 col-sm-6 col-lg-8">
+                    <img src="assets/chi-new-amari-violence-ct0029798696-20150705.jpeg" class="img-fluid">
+                </div>
+                <div class="col-med-6 col-sm-6 col-lg-4 justify-content-center">
+
+                    <h4>Amari Brown was shot and killed on the night of July 4th, 2015.</h4>
+                </div>
+                <div><p class="small">Antonio Brown, Amari's father, collapses during a vigil held after his son's death.</p></div>
+
+            </section>
+        </div>
+
+              <br> 
+
+        <div>
+             <section class="row">
+                 <div class="col-med-6 col-sm-6 col-lg-8 offset-lg-2">
+                    <img src="assets/chi-violence5fourth-ct0029790905-20150705.jpeg" class="img-fluid">
+                </div>
+              </section>
+
+              <section class="row">
+               <div><p class="col-med-6 col-sm-6 col-lg-8 offset-lg-2 small">Antonio Brown and Amari Brown. Family Handout</p></div>
+              </section>
+        </div>
+
+
+              <br>
+        <div>
+              <section class="row align-items-center">
+
+                 <div class="col-lg-2 col-med-6 col-sm-1 offset-lg-1 justify-content-center">
+                 <h4>He was just seven-years-old.</h4>
+
+                </div>
+                 <div class="col-med-6 col-sm-6 col-lg-8">
+                     <img src="assets/_N0A8623.jpeg" class="img-fluid">
+                </div>
+
+                </section>
+        </div>
+
+        <div>
+               <section class="row">
+               <div><p class="col-med-6 col-sm-6 col-lg-8 offset-lg-3 small">Antonio lights a candle for his son. </p></div>
+
+
+              </section>
+        </div>
+          
+    </div>
+        
+    <br>
+    <div class="container">
+    <p>At first, Antonio Brown thought the shots that killed his 7-year-old son were just more fireworks. But then people started yelling, "They shot your son," and he saw Amari collapsed on the ground.</p>
+
+    <p>"He was just down. He wasn't crying, he was speaking. 'Daddy, daddy,' " Brown said Sunday, sitting around the corner from where his son was shot hours before in the Humboldt Park neighborhood and still wearing clothes stained with the boy's blood.</p>
+
+</div>
+      
+    <div class="container">
+      <section class="row align-items-center">
+          <div class=col-med-6 col-sm-6 col-lg-7 justify-content-center>
+              <img src="assets/chi-violence5fourth-ct0029790205-20150705.jpeg" class="img-fluid">
+          </div>
+      </section>
+           <div><p class="small">A child looks out at a Chicago police officer the night Amari was killed.</p></div>
+    </div>
+
+    
+      
+      
+      <!-- closes container -->
+
+    <footer>
+
+      <header>
+        <small>This page was built by hand using HTML and CSS</small>
+      </header>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
